@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AttendancePublisher
+Bundle-SymbolicName: AttendancePublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: attendancepublisher.Activator
+Bundle-Vendor: MTIT
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: AttendancePublisher
+Import-Package: org.osgi.framework;version="1.3.0",classpublisher
+Bundle-ActivationPolicy: lazy
+Export-Package: attendancepublisher

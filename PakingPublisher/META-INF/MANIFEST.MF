@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: parkingpublisher
+Bundle-SymbolicName: PakingPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: parkingpublisher.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Import-Package: org.osgi.framework;version="1.3.0", classpublisher
+Bundle-ActivationPolicy: lazy
+Automatic-Module-Name: PakingPublisher
+Export-Package: parkingpublisher
